@@ -25,18 +25,33 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
+:root {
+	--text-color: red;
+}
+
+a {
+	color: var(--text-color);
+}
+
+
+
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
 body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: circle;
 }
 blockquote, q {
 	quotes: none;
+	
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -46,14 +61,15 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} */
+
+
 
 /* Set every element's box-sizing to border-box */
-* {
+ {
     box-sizing: border-box;
 }
-
 html, body {
-    height: 100%;
-}
+	height: 1%;
 
+}
