@@ -1,99 +1,8 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
 /* HTML5 display-role reset for older browsers */
 :root {
   --text-color: blue;
   --font-family: var(--font-family);
+  --text-align: left;
 }
 .bordered {
   border-top: dotted 1px black;
@@ -144,20 +53,28 @@ table {
 * {
   box-sizing: border-box;
 }
+head {
+  background-color: var(--background-color);
+}
 html,
 body {
   height: 1%;
-}
-:root {
-  --color: blue;
-  --text-align: left;
+  background-color: var(--background-color);
 }
 body {
-  color: var(--color);
-  margin: 0;
-  text-align: var(--text-align);
-  font-family: 'Merriweather', serif;
+  width: 1160px;
+  margin-left: 450px;
+  font-style: sans-serif;
+  font-size: 30px;
+  color: #778899;
 }
+/* body {
+	  color: var(--color);
+	  margin: 0;
+	  text-align: var(--text-align);
+	  font-family: 'Merriweather', serif;
+	  border: 20px solid red;
+	}*/
 h1 {
   color: var(--color);
   font-size: 5.625rem;
@@ -177,12 +94,6 @@ h3 {
 }
 p {
   line-height: 2;
-}
-hr {
-  border-top: dotted 1px black;
-  border-bottom: solid 2px black;
-  width: 4%;
-  margin: 100px auto;
 }
 a {
   color: #11999E;
@@ -220,29 +131,4 @@ a:hover {
 .contact-message {
   width: 40%;
   margin: 40px auto 60px;
-}
-.copyright {
-  color: #EAF6F6;
-  font-size: 0.75rem;
-  padding: 20px 0;
-}
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
-}
-.code-img {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-.chilli-img {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
 }
