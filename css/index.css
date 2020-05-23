@@ -1,17 +1,11 @@
 /* HTML5 display-role reset for older browsers */
 :root {
   --text-color: blue;
-  --font-family: var(--font-family);
-  --text-align: left;
-}
-.bordered {
-  border-top: dotted 1px black;
-  border-bottom: solid 2px black;
+  --font-family: 'Sacramento', cursive;
+  --text-align: center;
 }
 a {
   color: var(--text-color);
-  border-top: dotted 1px black;
-  border-bottom: solid 2px black;
   text-decoration: none;
 }
 article,
@@ -27,59 +21,68 @@ nav,
 section {
   display: block;
 }
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: circle;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-top: dotted 1px black;
-  border-bottom: solid 2px black;
+
 }
 /* Set every element's box-sizing to border-box */
 * {
   box-sizing: border-box;
+  display: block;
+  justify-content: flex-end;
 }
+
+/* Navigation */ 
+ nav a {
+  border: 20px solid red;
+  display: flex;
+  margin-left: 80%;
+  width: 20%;
+  align-items: flex-end;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 20px;
+  
+
+}
+
+
 head {
   background-color: var(--background-color);
+
+  
 }
 html,
 body {
   height: 1%;
   background-color: var(--background-color);
 }
-body {
-  width: 1160px;
-  margin-left: 450px;
+
+/* header h1 and p tag */
+header {
+  padding-top: 5%;
+  width: 50%;
+  margin-left: 100px;
   font-style: sans-serif;
   font-size: 30px;
-  color: #778899;
+  border: 20px solid blue;
+  margin-right: 10%;
+
+
 }
-/* body {
+ body {
 	  color: var(--color);
 	  margin: 0;
 	  text-align: var(--text-align);
-	  font-family: 'Merriweather', serif;
-	  border: 20px solid red;
-	}*/
+    font-family: 'Merriweather', serif;
+    background-color: grey;
+    
+	}
 h1 {
   color: var(--color);
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 50px;
 }
 h2 {
   color: var(--color);
@@ -94,6 +97,9 @@ h3 {
 }
 p {
   line-height: 2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 20px;
 }
 a {
   color: #11999E;
@@ -101,34 +107,42 @@ a {
   margin: 10px 20px;
   text-decoration: none;
 }
+
+
 a:hover {
-  color: #EAF6F6;
+  color: red;
 }
-.top-container {
-  background-color: #E4F9F5;
-  position: relative;
-  padding-top: 100px;
+
+div .content-2 h1 {
+  padding-top: 10%;
 }
-.middle-container {
-  margin: 100px 0;
+.content-1 {
+  border: 20px solid rebeccapurple;
+  display: flex;
+  justify-content: baseline;
 }
-.bottom-container {
-  background-color: var(--color);
-  padding: 50px 0 20px;
+
+.content-1 h1 {
+  display: flex;
+  justify-content: baseline;
 }
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
+
+.content-2 {
+  display: block;
+  flex-direction: row;
+  padding-bottom: 10%;
 }
-.pro {
-  text-decoration: underline;
+
+img {
+  width: 20%;
+  height: 20%;
 }
-.intro {
-  width: 30%;
-  margin: auto;
-}
-.contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
+
+
+.contact-section {
+  width: 100%;
+  background: black;
+  color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
