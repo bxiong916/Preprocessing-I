@@ -32,14 +32,14 @@ section {
 
 /* Navigation */ 
  nav a {
-  border: 20px solid red;
   display: flex;
-  margin-left: 80%;
-  width: 20%;
-  align-items: flex-end;
+  margin-left: 93%;
+  width: 5%;
+  align-items: flex-start;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: black;
   font-size: 20px;
+
   
 
 }
@@ -60,11 +60,13 @@ body {
 header {
   padding-top: 5%;
   width: 50%;
-  margin-left: 100px;
+  margin-left: 5%;
+  display: flex;
+  align-content: center;
   font-style: sans-serif;
   font-size: 30px;
-  border: 20px solid blue;
   margin-right: 10%;
+  border: 1px solid red;
 
 
 }
@@ -85,8 +87,8 @@ h1 {
   font-size: 50px;
 }
 h2 {
-  color: var(--color);
-  font-family: var(--font-family);
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 2.5rem;
   font-weight: normal;
   padding-bottom: 10px;
@@ -116,15 +118,21 @@ a:hover {
 div .content-2 h1 {
   padding-top: 10%;
 }
+
+.content-1 p {
+  display: flex;
+  justify-content: baseline;
+  margin-right: 15%;
+}
 .content-1 {
-  border: 20px solid rebeccapurple;
   display: flex;
   justify-content: baseline;
 }
-
+/*About me portion*/
 .content-1 h1 {
   display: flex;
   justify-content: baseline;
+  margin-left: 10%;
 }
 
 .content-2 {
@@ -143,6 +151,5 @@ img {
   width: 100%;
   background: black;
   color:white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
