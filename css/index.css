@@ -1,155 +1,21 @@
-/* HTML5 display-role reset for older browsers */
-:root {
-  --text-color: blue;
-  --font-family: 'Sacramento', cursive;
-  --text-align: center;
-}
-a {
-  color: var(--text-color);
-  text-decoration: none;
-}
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-
-}
-/* Set every element's box-sizing to border-box */
-* {
-  box-sizing: border-box;
-  display: block;
-  justify-content: flex-end;
-}
-
-/* Navigation */ 
- nav a {
-  display: flex;
-  margin-left: 93%;
-  width: 5%;
-  align-items: flex-start;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: black;
-  font-size: 20px;
-
-  
-
-}
-
-
-head {
-  background-color: var(--background-color);
-
-  
-}
-html,
-body {
-  height: 1%;
-  background-color: var(--background-color);
-}
-
-/* header h1 and p tag */
-header {
-  padding-top: 5%;
-  width: 50%;
-  margin-left: 5%;
-  display: flex;
-  align-content: center;
-  font-style: sans-serif;
-  font-size: 30px;
-  margin-right: 10%;
-  border: 1px solid red;
-
-
-}
- body {
-	  color: var(--color);
-	  margin: 0;
-	  text-align: var(--text-align);
-    font-family: 'Merriweather', serif;
-    background-color: grey;
-    
-	}
-h1 {
-  color: var(--color);
-  font-size: 5.625rem;
-  margin: 50px auto 0 auto;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: black;
-  font-size: 50px;
-}
-h2 {
-  color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 2.5rem;
-  font-weight: normal;
-  padding-bottom: 10px;
-}
-h3 {
-  color: #11999E;
-  font-family: var(--font-family);
-}
-p {
-  line-height: 2;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: black;
-  font-size: 20px;
-}
-a {
-  color: #11999E;
-  font-family: var(--font-family);
-  margin: 10px 20px;
-  text-decoration: none;
-}
-
-
-a:hover {
-  color: red;
-}
-
-div .content-2 h1 {
-  padding-top: 10%;
-}
-
-.content-1 p {
-  display: flex;
-  justify-content: baseline;
-  margin-right: 15%;
-}
-.content-1 {
-  display: flex;
-  justify-content: baseline;
-}
-/*About me portion*/
-.content-1 h1 {
-  display: flex;
-  justify-content: baseline;
-  margin-left: 10%;
-}
-
-.content-2 {
-  display: block;
-  flex-direction: row;
-  padding-bottom: 10%;
-}
-
-img {
-  width: 20%;
-  height: 20%;
-}
-
-
-.contact-section {
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+.main-container {
   width: 100%;
-  background: black;
-  color:white;
-
+  max-width: 600px;
+  margin: 0 auto;
+}
+nav {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+a {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  font-size: 100px;
+  margin: 5px;
 }
