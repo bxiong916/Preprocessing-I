@@ -48,4 +48,11 @@ h2 {
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
   border: 1px solid red;
+  border-bottom-style: dotted;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-color: white;
+  border-width: 100%;
+  padding-bottom: 15px;
 }
